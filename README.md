@@ -1,6 +1,15 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="robots" content="index,follow">
+  <meta name="keywords" content="desarrollo web, seguridad informática, inteligencia artificial">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="language" content="es">
+  <meta name="author" content="Edward Espinosa Hernandez">
+  <meta name="canonical" content="[https://www.example.com/pagina-original](https://edward-espinosa-hernandez.negocio.site/)">
+
+
+
   <title>Edward Espinosa Hernández</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <style>
