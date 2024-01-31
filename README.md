@@ -121,67 +121,74 @@
   </nav>
   <main>
 
-  <section id="servicios" class="servicios">
+ <section id="servicios" class="servicios">
   <h2>Servicios</h2>
-  <div class="servicio">
-    <h3>Digitalización de Ideas de Negocio</h3>
-    <div class="icono">
-      <img src="imagenes/icono-digitalizacion.png" alt="Icono de digitalización">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="servicio">
+        <h3>Digitalización de Ideas de Negocio</h3>
+        <div class="icono">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <div class="descripcion">
+          <p>
+            Ayudamos a las empresas a digitalizar sus ideas de negocio, desde la creación de un sitio web hasta el desarrollo de aplicaciones móviles.
+          </p>
+          <p>
+            Nuestros servicios incluyen:
+            <ul>
+              <li>Desarrollo de sitios web</li>
+              <li>Desarrollo de aplicaciones móviles</li>
+              <li>Consultoría en marketing digital</li>
+            </ul>
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="descripcion">
-      <p>
-        Ayudamos a las empresas a digitalizar sus ideas de negocio, desde la creación de un sitio web hasta el desarrollo de aplicaciones móviles.
-      </p>
-      <p>
-        Nuestros servicios incluyen:
-        <ul>
-          <li>Desarrollo de sitios web</li>
-          <li>Desarrollo de aplicaciones móviles</li>
-          <li>Consultoría en marketing digital</li>
-        </ul>
-      </p>
+    <div class="col-sm-4">
+      <div class="servicio">
+        <h3>Seguridad Informática</h3>
+        <div class="icono">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <div class="descripcion">
+          <p>
+            Protegemos los sistemas informáticos de las empresas de ataques cibernéticos.
+          </p>
+          <p>
+            Nuestros servicios incluyen:
+            <ul>
+              <li>Asesoría en seguridad informática</li>
+              <li>Implementación de medidas de seguridad</li>
+              <li>Monitorización de los sistemas informáticos</li>
+            </ul>
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="servicio">
-    <h3>Seguridad Informática</h3>
-    <div class="icono">
-      <img src="imagenes/icono-seguridad.png" alt="Icono de seguridad informática">
-    </div>
-    <div class="descripcion">
-      <p>
-        Protegemos los sistemas informáticos de las empresas de ataques cibernéticos.
-      </p>
-      <p>
-        Nuestros servicios incluyen:
-        <ul>
-          <li>Asesoría en seguridad informática</li>
-          <li>Implementación de medidas de seguridad</li>
-          <li>Monitorización de los sistemas informáticos</li>
-        </ul>
-      </p>
-    </div>
-  </div>
-  <div class="servicio">
-    <h3>Inteligencia Artificial</h3>
-    <div class="icono">
-      <img src="imagenes/icono-inteligencia-artificial.png" alt="Icono de inteligencia artificial">
-    </div>
-    <div class="descripcion">
-      <p>
-        Desarrollamos soluciones innovadoras basadas en inteligencia artificial.
-      </p>
-      <p>
-        Nuestros servicios incluyen:
-        <ul>
-          <li>Desarrollo de algoritmos de inteligencia artificial</li>
-          <li>Implementación de soluciones de inteligencia artificial</li>
-          <li>Formación en inteligencia artificial</li>
-        </ul>
-      </p>
+    <div class="col-sm-4">
+      <div class="servicio">
+        <h3>Inteligencia Artificial</h3>
+        <div class="icono">
+          <i class="fas fa-brain"></i>
+        </div>
+        <div class="descripcion">
+          <p>
+            Desarrollamos soluciones innovadoras basadas en inteligencia artificial.
+          </p>
+          <p>
+            Nuestros servicios incluyen:
+            <ul>
+              <li>Desarrollo de algoritmos de inteligencia artificial</li>
+              <li>Implementación de soluciones de inteligencia artificial</li>
+              <li>Formación en inteligencia artificial</li>
+            </ul>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-
 
     <section id="contacto" class="contacto">
       <h2>Contacto</h2>
