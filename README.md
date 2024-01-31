@@ -120,18 +120,28 @@
     <a href="#aporte-social">Aporte Social</a>
   </nav>
   <main>
-    <section id="servicios" class="servicios">
-      <h2>Servicios</h2>
-      <label for="servicios">Selecciona un servicio:</label>
-      <select id="servicios">
-        <option value="desarrollo-web">Desarrollo web</option>
-        <option value="seguridad-informatica">Seguridad informática</option>
-        <option value="inteligencia-artificial">Inteligencia artificial</option>
-      </select>
-      <div class="descripcion">
-        <p id="descripcion-servicio">Selecciona un servicio para ver la descripción.</p>
-      </div>
-    </section>
+   <section id="servicios" class="servicios">
+  <h2>Servicios</h2>
+  <div class="servicio" data-servicio="digitalizacion">
+    <h3>Digitalización de Ideas de Negocio</h3>
+    <div class="descripcion">
+      <p id="descripcion-servicio-digitalizacion">Descripción del servicio de digitalización.</p>
+    </div>
+  </div>
+  <div class="servicio" data-servicio="seguridad">
+    <h3>Seguridad Informática</h3>
+    <div class="descripcion">
+      <p id="descripcion-servicio-seguridad">Descripción del servicio de seguridad informática.</p>
+    </div>
+  </div>
+  <div class="servicio" data-servicio="inteligencia">
+    <h3>Inteligencia Artificial</h3>
+    <div class="descripcion">
+      <p id="descripcion-servicio-inteligencia">Descripción del servicio de inteligencia artificial.</p>
+    </div>
+  </div>
+</section>
+
     <section id="contacto" class="contacto">
       <h2>Contacto</h2>
       <p>Teléfono: +57 300 555 5555</p>
