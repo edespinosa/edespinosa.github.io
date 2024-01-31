@@ -114,7 +114,7 @@
 <body>
   <header>
     <h1>Edward Espinosa Hernández</h1>
-    <p>Experto en soluciones digitales, seguridad informática e inteligencia artificial</p>
+    <p>Experto en soluciones digitales, seguridad informática e inteligencia artificial mas de 10 años innovando de forma digital mas de 500 emprendimientos </p>
   </header>
   <nav>
     <a href="#servicios">Servicios</a>
