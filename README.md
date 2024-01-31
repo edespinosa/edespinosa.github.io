@@ -134,7 +134,7 @@
     </section>
     <section id="perfil" class="acerca-de">
       <h2>Perfil</h2>
-      <img src=https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F6963944%2Fpexels-photo-6963944.jpeg&tbnid=NhiI2XtsvlR6-M&vet=12ahUKEwjzoIPXyoiEAxXEpokEHVv1C14QMygCegQIARA4..i&imgrefurl=https%3A%2F%2Fwww.genexusconsulting.com%2Finsights%2Fque-es-hacking-etico%2F&docid=uZ6KkKsHV3zOdM&w=5661&h=3836&q=imagen%20hacking%20etico%20url&ved=2ahUKEwjzoIPXyoiEAxXEpokEHVv1C14QMygCegQIARA4"" alt="Edward Espinosa" />
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F6963944%2Fpexels-photo-6963944.jpeg&tbnid=NhiI2XtsvlR6-M&vet=12ahUKEwjzoIPXyoiEAxXEpokEHVv1C14QMygCegQIARA4..i&imgrefurl=https%3A%2F%2Fwww.genexusconsulting.com%2Finsights%2Fque-es-hacking-etico%2F&docid=uZ6KkKsHV3zOdM&w=5661&h=3836&q=imagen%20hacking%20etico%20url&ved=2ahUKEwjzoIPXyoiEAxXEpokEHVv1C14QMygCegQIARA4" alt="Edward Espinosa" />
       <p>Soy un apasionado por la tecnología y especialista en soluciones digitales. Con experiencia en desarrollo web, seguridad informática y el fascinante mundo de la inteligencia artificial, mi objetivo es brindar soluciones innovadoras y seguras para satisfacer las necesidades de mis clientes.</p>
     </section>
     <section id="aporte-social" class="aporte-social">
