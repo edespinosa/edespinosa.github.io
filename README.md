@@ -1,7 +1,4 @@
----
-layout: default
-title: Edward Espinosa Hernández
----
+
 
 <!DOCTYPE html>
 <html lang="es">
