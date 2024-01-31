@@ -1,16 +1,15 @@
+---
+layout: default
+title: Edward Espinosa Hernández
+---
+
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="robots" content="index,follow">
-  <meta name="keywords" content="desarrollo web, seguridad informática, inteligencia artificial">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="language" content="es">
-  <meta name="author" content="Edward Espinosa Hernandez">
-  <meta name="canonical" content="[https://www.example.com/pagina-original](https://edward-espinosa-hernandez.negocio.site/)">
-
-
-
-  <title>Edward Espinosa Hernández</title>
+  <!-- Otras metaetiquetas y enlaces van aquí -->
+  <title>{{ page.title }}</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <style>
     body {
@@ -34,74 +33,7 @@
       padding: 10px;
     }
 
-    nav a {
-      color: #ecf0f1;
-      margin: 0 15px;
-      text-decoration: none;
-      font-size: 18px;
-    }
-
-    main {
-      padding: 20px;
-    }
-
-    .servicios {
-      background-color: #34495e;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
-
-    .servicios h2 {
-      color: #ecf0f1;
-    }
-
-    select {
-      padding: 10px;
-      font-size: 16px;
-      margin-top: 10px;
-    }
-
-    .descripcion {
-      margin-top: 10px;
-    }
-
-    .descripcion p {
-      font-size: 16px;
-    }
-
-    .contacto {
-      background-color: #2ecc71;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
-
-    .contacto h2 {
-      color: #ecf0f1;
-    }
-
-    .acerca-de {
-      background-color: #e74c3c;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
-
-    .acerca-de h2 {
-      color: #ecf0f1;
-    }
-
-    .redes-sociales {
-      margin-top: 20px;
-      text-align: center;
-    }
-
-    .redes-sociales a {
-      color: #ecf0f1;
-      margin: 0 10px;
-      font-size: 20px;
-    }
+    /* Otros estilos van aquí */
 
     img {
       max-width: 100%;
@@ -113,8 +45,8 @@
 </head>
 <body>
   <header>
-    <h1>Edward Espinosa Hernández</h1>
-    <p>Experto en soluciones digitales, seguridad informática e inteligencia artificial mas de 10 años innovando de forma digital mas de 500 emprendimientos </p>
+    <h1>{{ page.title }}</h1>
+    <p>Experto en soluciones digitales, seguridad informática e inteligencia artificial...</p>
   </header>
   <nav>
     <a href="#servicios">Servicios</a>
@@ -124,30 +56,16 @@
   </nav>
   <main>
     <section id="servicios" class="servicios">
-      <h2>Servicios</h2>
-      <label for="servicios">Selecciona un servicio:</label>
-      <select id="servicios">
-        <option value="desarrollo-web">Desarrollo web</option>
-        <option value="seguridad-informatica">Seguridad informática</option>
-        <option value="inteligencia-artificial">Inteligencia artificial</option>
-      </select>
-      <div class="descripcion">
-        <p id="descripcion-servicio">Selecciona un servicio para ver la descripción.</p>
-      </div>
+      <!-- Contenido del servicio va aquí -->
     </section>
     <section id="contacto" class="contacto">
-      <h2>Contacto</h2>
-      <p>Teléfono: +57 300 555 5555</p>
-      <p>Correo electrónico: edward.espinosa@example.com</p>
+      <!-- Contenido del contacto va aquí -->
     </section>
     <section id="perfil" class="acerca-de">
-      <h2>Perfil</h2>
-      <img src="imagen" alt="Edward Espinosa" />
-      <p>Soy un apasionado por la tecnología y especialista en soluciones digitales. Con experiencia en desarrollo web, seguridad informática y el fascinante mundo de la inteligencia artificial, mi objetivo es brindar soluciones innovadoras y seguras para satisfacer las necesidades de mis clientes.</p>
+      <!-- Contenido del perfil va aquí -->
     </section>
     <section id="aporte-social" class="aporte-social">
-      <h2>Aporte Social</h2>
-      <!-- Incluye aquí contenido relacionado con tu aporte social -->
+      <!-- Contenido del aporte social va aquí -->
     </section>
     <div class="redes-sociales">
       <a href="https://www.facebook.com/tu-facebook" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -155,7 +73,7 @@
     </div>
   </main>
   <footer>
-    <p>Copyright &copy; 2023 Edward Espinosa Hernández</p>
+    <p>Copyright &copy; {{ "now" | date: "%Y" }} Edward Espinosa Hernández</p>
   </footer>
 
   <script>
