@@ -134,7 +134,7 @@
     </section>
     <section id="perfil" class="acerca-de">
       <h2>Perfil</h2>
-      <img src="https://lh3.googleusercontent.com/p/AF1QipNx64VH1h0nvfCzly3jzRi3_mMhlm6oVmjSHTba=w1080-h608-p-no-v0" alt="Edward Espinosa" />
+      <img src="imagen" alt="Edward Espinosa" />
       <p>Soy un apasionado por la tecnología y especialista en soluciones digitales. Con experiencia en desarrollo web, seguridad informática y el fascinante mundo de la inteligencia artificial, mi objetivo es brindar soluciones innovadoras y seguras para satisfacer las necesidades de mis clientes.</p>
     </section>
     <section id="aporte-social" class="aporte-social">
