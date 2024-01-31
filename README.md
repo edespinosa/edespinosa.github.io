@@ -124,7 +124,7 @@
 <section id="servicios" class="servicios">
   <h2>Servicios</h2>
   <div class="row">
-    <div class="servicio">
+    <div class="marco">
       <h3>Digitalización de Ideas de Negocio</h3>
       <div class="icono">
         <i class="fas fa-laptop-code"></i>
@@ -143,7 +143,7 @@
         </p>
       </div>
     </div>
-    <div class="servicio">
+    <div class="marco">
       <h3>Seguridad Informática</h3>
       <div class="icono">
         <i class="fas fa-shield-alt"></i>
@@ -162,7 +162,7 @@
         </p>
       </div>
     </div>
-    <div class="servicio">
+    <div class="marco">
       <h3>Inteligencia Artificial</h3>
       <div class="icono">
         <i class="fas fa-brain"></i>
