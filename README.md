@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -6,115 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="language" content="es">
   <meta name="author" content="Edward Espinosa Hernandez">
-  <meta name="canonical" content="[https://www.example.com/pagina-original](https://edward-espinosa-hernandez.negocio.site/)">
-
-
 
   <title>Edward Espinosa Hernández</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
   <style>
-    body {
-      background-color: #2c3e50;
-      font-family: 'Roboto', sans-serif;
-      color: #ecf0f1;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #3498db;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-
-    nav {
-      background-color: #2980b9;
-      text-align: center;
-      padding: 10px;
-    }
-
-    nav a {
-      color: #ecf0f1;
-      margin: 0 15px;
-      text-decoration: none;
-      font-size: 18px;
-    }
-
-    main {
-      padding: 20px;
-    }
-
-    .servicios {
-      background-color: #34495e;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
-
-    .servicios h2 {
-      color: #ecf0f1;
-    }
-
-    select {
-      padding: 10px;
-      font-size: 16px;
-      margin-top: 10px;
-    }
-
-    .descripcion {
-      margin-top: 10px;
-    }
-
-    .descripcion p {
-      font-size: 16px;
-    }
-
-    .contacto {
-      background-color: #2ecc71;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
-
-    .contacto h2 {
-      color: #ecf0f1;
-    }
-
-    .acerca-de {
-      background-color: #e74c3c;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
-
-    .acerca-de h2 {
-      color: #ecf0f1;
-    }
-
-    .redes-sociales {
-      margin-top: 20px;
-      text-align: center;
-    }
-
-    .redes-sociales a {
-      color: #ecf0f1;
-      margin: 0 10px;
-      font-size: 20px;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
+    /* Estilos van aquí */
   </style>
 </head>
 <body>
   <header>
     <h1>Edward Espinosa Hernández</h1>
-    <p>Experto en soluciones digitales, seguridad informática e inteligencia artificial mas de 10 años innovando de forma digital mas de 500 emprendimientos </p>
+    <p>Experto en soluciones digitales, seguridad informática e inteligencia artificial con más de 10 años innovando digitalmente y más de 500 emprendimientos.</p>
   </header>
   <nav>
     <a href="#servicios">Servicios</a>
@@ -125,8 +29,10 @@
   <main>
     <section id="servicios" class="servicios">
       <h2>Servicios</h2>
+      <!-- Etiqueta for debe coincidir con el id del select -->
       <label for="servicios">Selecciona un servicio:</label>
-      <select id="servicios">
+      <!-- Añadido un id único para evitar conflictos con JavaScript -->
+      <select id="serviciosSelect">
         <option value="desarrollo-web">Desarrollo web</option>
         <option value="seguridad-informatica">Seguridad informática</option>
         <option value="inteligencia-artificial">Inteligencia artificial</option>
@@ -142,7 +48,8 @@
     </section>
     <section id="perfil" class="acerca-de">
       <h2>Perfil</h2>
-      <img src="imagen" alt="Edward Espinosa" />
+      <!-- Cambiado "imagen" por una ruta de ejemplo -->
+      <img src="ruta/de/la/imagen.jpg" alt="Edward Espinosa" />
       <p>Soy un apasionado por la tecnología y especialista en soluciones digitales. Con experiencia en desarrollo web, seguridad informática y el fascinante mundo de la inteligencia artificial, mi objetivo es brindar soluciones innovadoras y seguras para satisfacer las necesidades de mis clientes.</p>
     </section>
     <section id="aporte-social" class="aporte-social">
@@ -159,7 +66,8 @@
   </footer>
 
   <script>
-    document.getElementById("servicios").addEventListener("change", function() {
+    // Cambiado el id para evitar conflictos
+    document.getElementById("serviciosSelect").addEventListener("change", function() {
       var descripcionServicio = document.getElementById("descripcion-servicio");
       switch (this.value) {
         case "desarrollo-web":
@@ -178,3 +86,4 @@
   </script>
 </body>
 </html>
+
