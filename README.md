@@ -123,8 +123,8 @@
 
 <style>
   .nav.fixed {
+   width: 100%;
     top: 10px;
-    width: 200px;
   }
 </style>
 
