@@ -124,6 +124,53 @@
 <section id="servicios" class="servicios">
   <h2>Servicios</h2>
   <div class="row">
+    <div class="servicio">
+      <h3>Digitalización de Ideas de Negocio</h3>
+      <div class="icono">
+        <i class="fas fa-laptop-code"></i>
+      </div>
+      <div class="descripcion">
+        <p>
+          Ayudamos a las empresas a digitalizar sus ideas de negocio, desde la creación de un sitio web hasta el desarrollo de aplicaciones móviles.
+        </p>
+        <p>
+          Nuestros servicios incluyen:
+          <ul>
+            <li>Desarrollo de sitios web</li>
+            <li>Desarrollo de aplicaciones móviles</li>
+            <li>Consultoría en marketing digital</li>
+          </ul>
+        </p>
+      </div>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#servicio-digitalizacion">
+        Ver más
+      </button>
+      <div class="collapse" id="servicio-digitalizacion">
+        <div class="card card-body">
+          <h4>Digitalización de Ideas de Negocio</h4>
+          <p>
+            Ayudamos a las empresas a digitalizar sus ideas de negocio, desde la creación de un sitio web hasta el desarrollo de aplicaciones móviles.
+          </p>
+          <p>
+            Nuestros servicios incluyen:
+            <ul>
+              <li>Desarrollo de sitios web</li>
+              <li>Desarrollo de aplicaciones móviles</li>
+              <li>Consultoría en marketing digital</li>
+            </ul>
+          </p>
+          <a href="#">Leer más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="servicios" class="servicios">
+  <h2>Servicios</h2>
+  <div class="row">
     <div class="marco">
       <h3>Digitalización de Ideas de Negocio</h3>
       <div class="icono">
