@@ -131,23 +131,17 @@
         <i class="fas fa-laptop-code"></i>
       </div>
       <div class="descripcion">
+        <h4>¿Quieres digitalizar tu negocio?</h4>
         <p>
-          Ayudamos a las empresas a digitalizar sus ideas de negocio, desde la creación de un sitio web hasta el desarrollo de aplicaciones móviles.
+          Con nuestros servicios de digitalización, podrás llevar tu negocio al siguiente nivel. Te ayudamos a crear un sitio web profesional, desarrollar aplicaciones móviles y realizar una estrategia de marketing digital efectiva.
         </p>
-        <p>
-          Nuestros servicios incluyen:
-          <ul>
-            <li>Desarrollo de sitios web</li>
-            <li>Desarrollo de aplicaciones móviles</li>
-            <li>Consultoría en marketing digital</li>
-          </ul>
-        </p>
+        <a href="#">Leer más</a>
       </div>
       <div class="acordeon">
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-1">
-          Item 1
+          Ver más
         </button>
-        <div class="collapse show" id="digitalizacion-1">
+        <div class="collapse" id="digitalizacion-1">
           <div class="card card-body">
             <h4>Item 1</h4>
             <p>
@@ -157,7 +151,7 @@
           </div>
         </div>
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-2">
-          Item 2
+          Ver más
         </button>
         <div class="collapse" id="digitalizacion-2">
           <div class="card card-body">
@@ -169,7 +163,7 @@
           </div>
         </div>
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-3">
-          Item 3
+          Ver más
         </button>
         <div class="collapse" id="digitalizacion-3">
           <div class="card card-body">
@@ -184,6 +178,8 @@
     </div>
   </div>
 </section>
+
+
 
 
     <section id="contacto" class="contacto">
