@@ -109,16 +109,25 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Edward Espinosa Hernández</h1>
-    <p>Experto en soluciones digitales, seguridad informática e inteligencia artificial</p>
-  </header>
-  <nav>
-    <a href="#servicios">Servicios</a>
-    <a href="#contacto">Contáctenos</a>
-    <a href="#perfil">Perfil</a>
-    <a href="#aporte-social">Aporte Social</a>
-  </nav>
+ <header>
+  <h1>Edward Espinosa Hernández</h1>
+  <p>Experto en soluciones digitales, seguridad informática e inteligencia artificial</p>
+</header>
+
+<nav class="fixed">
+  <a href="#servicios">Servicios</a>
+  <a href="#contacto">Contáctenos</a>
+  <a href="#perfil">Perfil</a>
+  <a href="#aporte-social">Aporte Social</a>
+</nav>
+
+<style>
+  .nav.fixed {
+    top: 10px;
+    width: 200px;
+  }
+</style>
+
   <main>
 
 
