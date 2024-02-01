@@ -121,6 +121,7 @@
   </nav>
   <main>
 
+
 <section id="servicios" class="servicios">
   <h2>Servicios</h2>
   <div class="row">
@@ -146,7 +147,7 @@
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-1">
           Item 1
         </button>
-        <div class="collapse" id="digitalizacion-1">
+        <div class="collapse show" id="digitalizacion-1">
           <div class="card card-body">
             <h4>Item 1</h4>
             <p>
