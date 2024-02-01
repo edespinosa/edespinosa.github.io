@@ -176,17 +176,52 @@
   </div>
 </section>
 
+<section id="contacto" class="contacto">
+  <h2>Contacto</h2>
+  <form action="enviar-mensaje.php" method="post">
+    <input type="text" name="nombre" placeholder="Nombre">
+    <input type="email" name="correo" placeholder="Correo electrónico">
+    <textarea name="mensaje" placeholder="Mensaje"></textarea>
+    <input type="submit" value="Enviar">
+  </form>
+</section>
 
-    <section id="contacto" class="contacto">
-      <h2>Contacto</h2>
-      <p>Teléfono: +57 300 555 5555</p>
-      <p>Correo electrónico: edward.espinosa@example.com</p>
-    </section>
-    <section id="perfil" class="acerca-de">
-      <h2>Perfil</h2>
-      <img src="tu-imagen.jpg" alt="Edward Espinosa" />
-      <p>Soy un apasionado por la tecnología y especialista en soluciones digitales. Con experiencia en desarrollo web, seguridad informática y el fascinante mundo de la inteligencia artificial, mi objetivo es brindar soluciones innovadoras y seguras para satisfacer las necesidades de mis clientes.</p>
-    </section>
+<section id="perfil" class="acerca-de">
+  <h2>Perfil</h2>
+  <img src="tu-imagen.jpg" alt="Edward Espinosa" />
+  <p>Soy un apasionado por la tecnología y especialista en soluciones digitales. Con experiencia en desarrollo web, seguridad informática y el fascinante mundo de la inteligencia artificial, mi objetivo es brindar soluciones innovadoras y seguras para satisfacer las necesidades de mis clientes.</p>
+  <ul>
+    <li><a href="https://www.facebook.com/edward.espinosa.hernandez" target="_blank"><i class="fab fa-facebook"></i></a></li>
+    <li><a href="https://twitter.com/edward_espinosa" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/edward.espinosa.hernandez" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+  </ul>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // Enviar mensaje por WhatsApp
+    $("form").submit(function(e) {
+      e.preventDefault();
+
+      // Obtener los datos del formulario
+      var nombre = $("input[name='nombre']").val();
+      var correo = $("input[name='correo']").val();
+      var mensaje = $("textarea[name='mensaje']").val();
+
+      // Crear el enlace a WhatsApp
+      var whatsapp = "https://api.whatsapp.com/send?phone=573128377052&text=Mensaje de contacto desde la página web de Edward Espinosa Hernández:";
+
+      // Agregar el nombre y el mensaje al enlace
+      whatsapp += "&text=Nombre: " + nombre + "\nCorreo: " + correo + "\nMensaje: " + mensaje;
+
+      // Abrir el enlace en una nueva ventana
+      window.open(whatsapp, "_blank");
+    });
+  });
+</script>
+   
+    
     <section id="aporte-social" class="aporte-social">
       <h2>Aporte Social</h2>
       <!-- Incluye aquí contenido relacionado con tu aporte social -->
