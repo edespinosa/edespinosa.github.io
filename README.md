@@ -186,7 +186,6 @@
 </section>
 
 
-
     <section id="contacto" class="contacto">
       <h2>Contacto</h2>
       <p>Teléfono: +57 300 555 5555</p>
