@@ -142,90 +142,43 @@
           </ul>
         </p>
       </div>
-      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#servicio-digitalizacion">
-        Ver más
-      </button>
-      <div class="collapse" id="servicio-digitalizacion">
-        <div class="card card-body">
-          <h4>Digitalización de Ideas de Negocio</h4>
-          <p>
-            Ayudamos a las empresas a digitalizar sus ideas de negocio, desde la creación de un sitio web hasta el desarrollo de aplicaciones móviles.
-          </p>
-          <p>
-            Nuestros servicios incluyen:
-            <ul>
-              <li>Desarrollo de sitios web</li>
-              <li>Desarrollo de aplicaciones móviles</li>
-              <li>Consultoría en marketing digital</li>
-            </ul>
-          </p>
-          <a href="#">Leer más</a>
+      <div class="acordeon">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-1">
+          Item 1
+        </button>
+        <div class="collapse" id="digitalizacion-1">
+          <div class="card card-body">
+            <h4>Item 1</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, sapien ac aliquam tristique, quam mi iaculis mauris, vel faucibus eros quam eu neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            </p>
+            <a href="#">Leer más</a>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  
-
-<section id="servicios" class="servicios">
-  <h2>Servicios</h2>
-  <div class="row">
-    <div class="marco">
-      <h3>Digitalización de Ideas de Negocio</h3>
-      <div class="icono">
-        <i class="fas fa-laptop-code"></i>
-      </div>
-      <div class="descripcion">
-        <p>
-          Ayudamos a las empresas a digitalizar sus ideas de negocio, desde la creación de un sitio web hasta el desarrollo de aplicaciones móviles.
-        </p>
-        <p>
-          Nuestros servicios incluyen:
-          <ul>
-            <li>Desarrollo de sitios web</li>
-            <li>Desarrollo de aplicaciones móviles</li>
-            <li>Consultoría en marketing digital</li>
-          </ul>
-        </p>
-      </div>
-    </div>
-    <div class="marco">
-      <h3>Seguridad Informática</h3>
-      <div class="icono">
-        <i class="fas fa-shield-alt"></i>
-      </div>
-      <div class="descripcion">
-        <p>
-          Protegemos los sistemas informáticos de las empresas de ataques cibernéticos.
-        </p>
-        <p>
-          Nuestros servicios incluyen:
-          <ul>
-            <li>Asesoría en seguridad informática</li>
-            <li>Implementación de medidas de seguridad</li>
-            <li>Monitorización de los sistemas informáticos</li>
-          </ul>
-        </p>
-      </div>
-    </div>
-    <div class="marco">
-      <h3>Inteligencia Artificial</h3>
-      <div class="icono">
-        <i class="fas fa-brain"></i>
-      </div>
-      <div class="descripcion">
-        <p>
-          Desarrollamos soluciones innovadoras basadas en inteligencia artificial.
-        </p>
-        <p>
-          Nuestros servicios incluyen:
-          <ul>
-            <li>Desarrollo de algoritmos de inteligencia artificial</li>
-            <li>Implementación de soluciones de inteligencia artificial</li>
-            <li>Formación en inteligencia artificial</li>
-          </ul>
-        </p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-2">
+          Item 2
+        </button>
+        <div class="collapse" id="digitalizacion-2">
+          <div class="card card-body">
+            <h4>Item 2</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, sapien ac aliquam tristique, quam mi iaculis mauris, vel faucibus eros quam eu neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            </p>
+            <a href="#">Leer más</a>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-3">
+          Item 3
+        </button>
+        <div class="collapse" id="digitalizacion-3">
+          <div class="card card-body">
+            <h4>Item 3</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, sapien ac aliquam tristique, quam mi iaculis mauris, vel faucibus eros quam eu neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            </p>
+            <a href="#">Leer más</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
