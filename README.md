@@ -138,7 +138,7 @@
         <a href="#">Leer más</a>
       </div>
       <div class="acordeon">
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-1">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-1" data-tooltip="Este servicio te ayuda a digitalizar tu negocio">
           Ver más
         </button>
         <div class="collapse" id="digitalizacion-1">
@@ -150,7 +150,7 @@
             <a href="#">Leer más</a>
           </div>
         </div>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-2">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-2" data-tooltip="Este servicio te ayuda a desarrollar aplicaciones móviles">
           Ver más
         </button>
         <div class="collapse" id="digitalizacion-2">
@@ -162,7 +162,7 @@
             <a href="#">Leer más</a>
           </div>
         </div>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-3">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-3" data-tooltip="Este servicio te ayuda a realizar una estrategia de marketing digital efectiva">
           Ver más
         </button>
         <div class="collapse" id="digitalizacion-3">
@@ -178,8 +178,6 @@
     </div>
   </div>
 </section>
-
-
 
 
     <section id="contacto" class="contacto">
