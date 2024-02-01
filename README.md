@@ -219,7 +219,7 @@
       var mensaje = $("textarea[name='mensaje']").val();
 
       // Crear el enlace a WhatsApp
-      var whatsapp = "https://api.whatsapp.com/send?phone=573005555555&text=Mensaje de contacto desde la página web de Edward Espinosa Hernández:";
+      var whatsapp = "https://api.whatsapp.com/send?phone=573128377052&text=Mensaje de contacto desde la página web de Edward Espinosa Hernández:";
 
       // Agregar el nombre y el mensaje al enlace
       whatsapp += "&text=Nombre: " + nombre + "\nCorreo: " + correo + "\nMensaje: " + mensaje;
