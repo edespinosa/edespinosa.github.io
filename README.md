@@ -179,10 +179,19 @@
 <section id="contacto" class="contacto">
   <h2>Contacto</h2>
   <form action="enviar-mensaje.php" method="post">
-    <input type="text" name="nombre" placeholder="Nombre">
-    <input type="email" name="correo" placeholder="Correo electrónico">
-    <textarea name="mensaje" placeholder="Mensaje"></textarea>
-    <input type="submit" value="Enviar">
+    <div class="input-group">
+      <input type="text" name="nombre" placeholder="Nombre" class="form-control" />
+      <span class="input-group-addon"><i class="fas fa-user"></i></span>
+    </div>
+    <div class="input-group">
+      <input type="email" name="correo" placeholder="Correo electrónico" class="form-control" />
+      <span class="input-group-addon"><i class="fas fa-envelope"></i></span>
+    </div>
+    <div class="input-group">
+      <textarea name="mensaje" placeholder="Mensaje" class="form-control"></textarea>
+      <span class="input-group-addon"><i class="fas fa-pencil-alt"></i></span>
+    </div>
+    <input type="submit" value="Enviar" class="btn btn-primary" />
   </form>
 </section>
 
@@ -190,10 +199,10 @@
   <h2>Perfil</h2>
   <img src="tu-imagen.jpg" alt="Edward Espinosa" />
   <p>Soy un apasionado por la tecnología y especialista en soluciones digitales. Con experiencia en desarrollo web, seguridad informática y el fascinante mundo de la inteligencia artificial, mi objetivo es brindar soluciones innovadoras y seguras para satisfacer las necesidades de mis clientes.</p>
-  <ul>
-    <li><a href="https://www.facebook.com/edward.espinosa.hernandez" target="_blank"><i class="fab fa-facebook"></i></a></li>
-    <li><a href="https://twitter.com/edward_espinosa" target="_blank"><i class="fab fa-twitter"></i></a></li>
-    <li><a href="https://www.linkedin.com/in/edward.espinosa.hernandez" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+  <ul class="redes-sociales">
+    <li><a href="https://www.facebook.com/edward.espinosa.hernandez" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li>
+    <li><a href="https://twitter.com/edward_espinosa" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/edward-espinosa-hernandez/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
   </ul>
 </section>
 
@@ -210,7 +219,7 @@
       var mensaje = $("textarea[name='mensaje']").val();
 
       // Crear el enlace a WhatsApp
-      var whatsapp = "https://api.whatsapp.com/send?phone=573128377052&text=Mensaje de contacto desde la página web de Edward Espinosa Hernández:";
+      var whatsapp = "https://api.whatsapp.com/send?phone=573005555555&text=Mensaje de contacto desde la página web de Edward Espinosa Hernández:";
 
       // Agregar el nombre y el mensaje al enlace
       whatsapp += "&text=Nombre: " + nombre + "\nCorreo: " + correo + "\nMensaje: " + mensaje;
@@ -220,6 +229,7 @@
     });
   });
 </script>
+
    
     
     <section id="aporte-social" class="aporte-social">
