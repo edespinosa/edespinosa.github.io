@@ -126,7 +126,7 @@
   <h2>Servicios</h2>
   <div class="row">
     <div class="servicio">
-      <h3>Digitalización de Ideas de Negocio</h3>
+      <h3>Digitalización de ideas de negocio</h3>
       <div class="icono">
         <i class="fas fa-laptop-code"></i>
       </div>
@@ -137,43 +137,31 @@
         </p>
         <a href="#">Leer más</a>
       </div>
-      <div class="acordeon">
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-1" data-tooltip="Este servicio te ayuda a digitalizar tu negocio">
-          Ver más
-        </button>
-        <div class="collapse" id="digitalizacion-1">
-          <div class="card card-body">
-            <h4>Item 1</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, sapien ac aliquam tristique, quam mi iaculis mauris, vel faucibus eros quam eu neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-            </p>
-            <a href="#">Leer más</a>
-          </div>
-        </div>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-2" data-tooltip="Este servicio te ayuda a desarrollar aplicaciones móviles">
-          Ver más
-        </button>
-        <div class="collapse" id="digitalizacion-2">
-          <div class="card card-body">
-            <h4>Item 2</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, sapien ac aliquam tristique, quam mi iaculis mauris, vel faucibus eros quam eu neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-            </p>
-            <a href="#">Leer más</a>
-          </div>
-        </div>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#digitalizacion-3" data-tooltip="Este servicio te ayuda a realizar una estrategia de marketing digital efectiva">
-          Ver más
-        </button>
-        <div class="collapse" id="digitalizacion-3">
-          <div class="card card-body">
-            <h4>Item 3</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, sapien ac aliquam tristique, quam mi iaculis mauris, vel faucibus eros quam eu neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-            </p>
-            <a href="#">Leer más</a>
-          </div>
-        </div>
+    </div>
+    <div class="servicio">
+      <h3>Cursos de ciberseguridad</h3>
+      <div class="icono">
+        <i class="fas fa-shield-alt"></i>
+      </div>
+      <div class="descripcion">
+        <h4>¿Quieres proteger tu negocio de las amenazas cibernéticas?</h4>
+        <p>
+          En nuestros cursos de ciberseguridad, aprenderás todo lo que necesitas para proteger tu negocio de las amenazas cibernéticas. Nuestros cursos están diseñados para todos los niveles de experiencia, desde principiantes hasta expertos.
+        </p>
+        <a href="#">Leer más</a>
+      </div>
+    </div>
+    <div class="servicio">
+      <h3>Inteligencia artificial</h3>
+      <div class="icono">
+        <i class="fas fa-robot"></i>
+      </div>
+      <div class="descripcion">
+        <h4>¿Quieres aprovechar el poder de la inteligencia artificial?</h4>
+        <p>
+          La inteligencia artificial (IA) es una tecnología revolucionaria que está cambiando el mundo. Nuestros servicios de inteligencia artificial te ayudarán a aprovechar el poder de la IA para mejorar tu negocio.
+        </p>
+        <a href="#">Leer más</a>
       </div>
     </div>
   </div>
